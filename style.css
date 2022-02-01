@@ -12,6 +12,7 @@
  background-size: cover;
     /* background-color: #0652DD; */
     color:rgb(105, 134, 192);
+    margin: 0;
   }
   
   main {
@@ -28,7 +29,7 @@
     font-style: normal;
     font-weight: bolder;
     font-size: 4em;
-    line-height: 105%;
+    line-height: 100%;
     color: white;
   }
   
@@ -84,11 +85,12 @@
   
   input { 
     width: 300px;
-    padding: 20px;
+    padding: 10px;
     font-size: 2em;
     border: 0;
     border-radius: 10px;
     box-shadow: inset 1px 0px 5px 4px rgba(0,0,0,0.2);
+
   }
   
   .congrats {
@@ -105,13 +107,15 @@
   
   /* Navigation grid */
   .footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     border: 5px solid rgba(226, 188, 226, 0.034);
     background-color: rgba(51, 45, 45, 0.788);
     color: rgb(253, 253, 253);
     width: 100%;
+    font-size: 0.5em;
+    
   }
   
   
